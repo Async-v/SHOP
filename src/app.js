@@ -29,12 +29,12 @@ const products = [
     },
     {
         name: "Smart Watch",
-        image: "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+        image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "Track your fitness and stay connected."
     },
     {
         name: "Backpack",
-        image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd",
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja3BhY2t8ZW58MHx8MHx8fDA%3D",
         description: "Durable backpack for travel and daily use."
     },
     {
@@ -49,12 +49,12 @@ const products = [
     },
     {
         name: "Gaming Mouse",
-        image: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7",
+        image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwbW91c2V8ZW58MHx8MHx8fDA%3D",
         description: "Precision and speed for gaming."
     },
     {
         name: "Desk Setup",
-        image: "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+        image: "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzayUyMHNldHVwfGVufDB8fDB8fHww",
         description: "Minimal workspace setup for productivity."
     }
 ];
