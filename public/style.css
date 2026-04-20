@@ -44,6 +44,12 @@ body {
     font-size: 0.9rem;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
 /* Hero */
 .hero {
     height: 60vh;
@@ -154,9 +160,10 @@ body {
 }
 
 /* Contact Page */
-.page-title{
+.page-title {
     margin-bottom: 30px;
 }
+
 .contact-wrapper {
     max-width: 500px;
     margin: auto;
@@ -167,6 +174,7 @@ body {
     flex-direction: column;
     gap: 2rem;
 }
+
 .contact-form button {
     padding: 1rem 1.5rem;
 }
@@ -187,15 +195,32 @@ body {
 
 /* Responsive */
 @media (max-width: 600px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
     .nav-links {
         display: none;
         /* simple minimal mobile */
     }
-}
 
-/* Responsive Hero */
-@media (max-width: 600px) {
-    .hero h1 {
-        font-size: 2rem;
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background: #fff;
+        flex-direction: column;
+        width: 200px;
+        padding: 1rem;
+        border: 1px solid #eee;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 }
